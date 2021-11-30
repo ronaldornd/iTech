@@ -1,0 +1,105 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  position: relative;
+}
+.logoIcon {
+  position: static;
+  width: 50px;
+  height: 48px;
+  margin: 15px;
+}
+
+.pageLbl {
+  text-align: left;
+  vertical-align: middle;
+  color: #000000;
+  position: relative;
+  min-width: 20%;
+  max-width: 20%;
+
+  font-family: Acme;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  align-items: center;
+  letter-spacing: 0.1em;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+
+  position: relative;
+  width: 100%;
+
+  left: auto;
+  top: 0px;
+  height: min-content;
+}
+.userName {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 25px;
+  font-family: Acme;
+  letter-spacing: -0.16500000655651093px;
+  line-height: auto;
+  color: #260101;
+  width: 200px;
+}
+
+.profilePic {
+  background: url(../../assets/ProfilePic.png);
+  position: static;
+  width: 80px;
+  height: 80px;
+  left: auto;
+  margin: 5px;
+
+  background: url(.png);
+  /* blueTech */
+
+  border: 5px solid #5dc3ef;
+  box-sizing: border-box;
+  border-radius: 50%;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 20px;
+}
+.logOut {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+  position: static;
+  width: 90px;
+  height: 50px;
+  left: 492px;
+  top: 20px;
+}
+.LogoutLbl {
+  text-align: right;
+  vertical-align: middle;
+  font-size: 20px;
+  font-family: Acme;
+  line-height: auto;
+  color: #000000;
+  margin: 10px;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+  background-color: #ffffff;
+}
