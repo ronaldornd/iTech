@@ -1,13 +1,40 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+}
+.logo {
+  margin: 10px;
+  width: 60%;
+  height: 90vh;
+  background: url("../../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+
+  border: 1px solid rgba(0, 0, 0, 1);
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border-bottom-right-radius: 24px;
+  overflow: hidden;
+}
 .signUp {
-  border-radius: 24px 24px 0px 0px;
+  border-radius: 20px 20px 0px 0px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  padding: 18px 10px;
+  padding: 10px 10px;
   background-color: #e8e8e8;
   border: 3px solid #dadada;
-  height: fit-content;
+  height: 90%;
+  width: 30%;
 }
 .lbl {
   display: flex;
@@ -26,36 +53,45 @@
 
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  padding: 1px;
   gap: 2vh;
 }
 
 .inputContent {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #ffffff;
-  gap: 10px;
+
   border: 1px solid #5dc3ef;
   border-radius: 8px;
+  padding: 0.5vh;
 }
 
 .divIcon {
+  padding: 1%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
   height: 24px;
-  width: 24px;
+  width: 30px;
   background-color: #ffffff;
   border-radius: 8px;
 }
 
 .inputIcon {
-  height: 16px;
-  width: 19px;
+  margin: 15%;
+
+  height: 24px;
+  width: 24px;
 }
+
 .inputline {
   transform: rotate(-91deg);
-  height: 0px;
-  width: 24px;
+  align-self: center;
 }
 .input {
   border-radius: 8px;
@@ -63,7 +99,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  padding: 4px 0px;
+  padding: 4px 4px;
   margin: 5px;
   gap: 10px;
   border: 0;
@@ -77,14 +113,13 @@
   font-family: "Acme", sans-serif;
   letter-spacing: 0.5px;
   color: black;
-  padding: 5px;
 }
 
 .switch {
   position: relative;
   display: flex;
-  width: 60px;
-  height: 34px;
+  width: 65px;
+  height: 30px;
 }
 
 /* Hide default HTML checkbox */
@@ -107,19 +142,25 @@
   transition: 0.4s;
 }
 .toggleType {
+  margin: 2px;
+  height: 1%;
   display: flex;
-  width: fit-content;
+  width: max-content;
   flex-direction: row;
   align-items: center;
+}
+.toggleText {
+  font-family: "Acme", sans-serif;
+  margin: 10px;
+  font-size: 20px;
 }
 
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 20px;
+  width: 30px;
+  margin: 5px;
   background-color: black;
   -webkit-transition: 0.4s;
   transition: 0.4s;
@@ -143,7 +184,7 @@ input:checked + .slider:before {
 }
 
 .slider.round:before {
-  border-radius: 50%;
+  border-radius: 34px;
 }
 
 .signinbtn {
@@ -153,13 +194,11 @@ input:checked + .slider:before {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 24px 132px;
+  padding: 0 8%;
 
   position: static;
-  width: 342.69px;
-  height: 45.17px;
-  left: 34.15px;
-  top: 510.05px;
+  width: 50%;
+  height: 6vh;
 
   /* blueTech */
 
@@ -171,5 +210,4 @@ input:checked + .slider:before {
   /* Inside Auto Layout */
 
   flex-grow: 0;
-  margin: 7px 0px;
 }
