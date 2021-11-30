@@ -132,7 +132,7 @@
   left: 44px;
   top: 3.33px;
 
-  font-family: Acme;
+  font-family: "Acme", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -167,7 +167,7 @@
   text-align: left;
   vertical-align: bottom;
   font-size: 27px;
-  font-family: Acme;
+  font-family: "Acme", sans-serif;
   letter-spacing: 1.25px;
   line-height: auto;
   color: #333333;
@@ -223,7 +223,7 @@
   text-align: center;
   vertical-align: bottom;
   font-size: 20px;
-  font-family: Acme;
+  font-family: "Acme", sans-serif;
   letter-spacing: 0.25px;
   line-height: auto;
 }

@@ -6,31 +6,30 @@
   align-items: center;
   padding: 18px 10px;
   background-color: #e8e8e8;
-  border: 1px solid #dadada;
+  border: 3px solid #dadada;
+  height: fit-content;
 }
 .lbl {
-  text-align: left;
+  display: flex;
+  margin: 10px;
+  text-align: center;
   vertical-align: bottom;
   font-size: 20px;
-  font-family: Inter;
+  font-family: "Acme", sans-serif;
   letter-spacing: 0.15000000596046448px;
   line-height: auto;
   color: #333333;
 }
 .inputBox {
-  height: 42px;
-  width: 323px;
-  border-radius: 8px;
+  height: 100%;
+  width: 100%;
 
-  background-color: #ffffff;
-  border: 1px solid #5dc3ef;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 2vh;
 }
 
-.divIcon {
-  height: 24px;
-  width: 24px;
-  background-color: #ffffff;
-}
 .inputContent {
   display: flex;
   flex-direction: row;
@@ -39,7 +38,16 @@
   background-color: #ffffff;
   gap: 10px;
   border: 1px solid #5dc3ef;
+  border-radius: 8px;
 }
+
+.divIcon {
+  height: 24px;
+  width: 24px;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
 .inputIcon {
   height: 16px;
   width: 19px;
@@ -50,19 +58,118 @@
   width: 24px;
 }
 .input {
+  border-radius: 8px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   padding: 4px 0px;
+  margin: 5px;
   gap: 10px;
+  border: 0;
+  width: 100%;
 }
 .text {
-  text-align: left;
+  display: flex;
+  text-align: center;
   vertical-align: middle;
-  font-size: 16px;
-  font-family: Inter;
+  font-size: 12px;
+  font-family: "Acme", sans-serif;
   letter-spacing: 0.5px;
-  line-height: auto;
-  color: rgba(0, 0, 0, 0.30000001192092896);
+  color: black;
+  padding: 5px;
+}
+
+.switch {
+  position: relative;
+  display: flex;
+  width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #5dc3ef;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.toggleType {
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  align-items: center;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+input:checked + .slider {
+  background-color: #5dc3ef;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #5dc3ef;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.signinbtn {
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 132px;
+
+  position: static;
+  width: 342.69px;
+  height: 45.17px;
+  left: 34.15px;
+  top: 510.05px;
+
+  /* blueTech */
+
+  background: #5dc3ef;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex-grow: 0;
+  margin: 7px 0px;
 }
