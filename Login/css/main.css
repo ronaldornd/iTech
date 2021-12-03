@@ -1,58 +1,65 @@
+body{
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vh;
+  padding: 0;
+}
 .app {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  align-items: flex-start;
+  justify-content:space-around;
   position: relative;
+  width: fit-content;
+  height: fit-content;
+  padding: 5%;
 }
 .loginBox {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 27px 31px;
+  
 
   position: relative;
-  width: 385px;
-  height: 588px;
+  width: 60vh;
+  height: 90vh;
 
-  top: 80px;
+  
 
   background: linear-gradient(180deg, #ffffff -13.59%, #f4f4f4 100%);
   border: 1px solid #dadada;
-  box-sizing: border-box;
+  
   border-radius: 24px 24px 0px 0px;
 }
 .logo {
-  width: 70%;
+  width: 110vh;
   height: 90vh;
   background: url("../../images/logo.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
-  position: absolute;
-  top: 40px;
-  left: 13px;
+  position: relative;
   border: 1px solid rgba(0, 0, 0, 1);
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  overflow: hidden;
+  border-radius: 24px;
+  margin-right: 5%;
 }
 
 .loginDiv {
   /* Inside Auto Layout */
   align-items: center;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  margin:10px;
+  height: 70vh;
+  width: 50vh;
 }
 .lbl {
   position: relative;
-  width: 56px;
-  height: 32px;
+  width: fit-content;
+  height: fit-content;
 
   font-family: Acme, Helvetica, sans-serif;
   font-style: normal;
@@ -79,12 +86,11 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 7px 8px;
+  padding: 0vh 2vh;
 
-  width: 323px;
-  height: 40.67px;
-  left: 31px;
-  top: 93.83px;
+  width: 100%;
+  height: 10%;
+  
 
   background: #ffffff;
   /* blueTech */
@@ -96,10 +102,10 @@
   /* Inside Auto Layout */
 
   flex: none;
-  border: 1;
-  align-self: stretch;
+  
+  
   flex-grow: 0;
-  margin: 22px 0px;
+  margin: 2vh;
 }
 .email {
   /* Email */
@@ -109,13 +115,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 4px 0px;
+  padding: 4px 4px;
 
   position: static;
   width: 100%;
-  height: 26.67px;
-  left: 8px;
-  top: 7px;
+  height: 2vh;
+  
 
   /* Inside Auto Layout */
 
@@ -126,17 +131,14 @@
 .input {
   /* Email */
 
-  position: static;
-  width: max-content;
-  height: 20px;
-  left: 44px;
-  top: 3.33px;
+  position: relative;
+  width: 100%;
+  height: max-content;
 
   font-family: "Acme", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 20px;
   display: flex;
   align-items: center;
   letter-spacing: 0.5px;
@@ -147,10 +149,9 @@
 
   /* Inside Auto Layout */
 
-  flex: none;
   border: 0;
   flex-grow: 1;
-  margin: 0px 10px;
+  
 }
 .loginButton {
   border-radius: 8px;
@@ -158,8 +159,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px;
-
+  margin: 2vh;
+  width: 70%;
+  height: fit-content;
   background-color: #5dc3ef;
   border: 1px solid #333333;
 }
@@ -168,15 +170,18 @@
   vertical-align: bottom;
   font-size: 27px;
   font-family: "Acme", sans-serif;
-  letter-spacing: 1.25px;
-  line-height: auto;
+  letter-spacing: 2.25px;
   color: #333333;
+  height: fit-content;
+  width: fit-content;
+  margin: 1vh;
 }
 .socialLogin {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  width: 100%;
 }
 .socialBtn {
   border-radius: 8px;
@@ -194,12 +199,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin: 1vh;
 }
 .loginText {
   text-align: left;
   vertical-align: bottom;
   font-size: 20px;
-  font-family: Inter;
+  font-family: Acme;
   letter-spacing: 1.25px;
   line-height: auto;
   color: #333333;
@@ -210,20 +216,55 @@
   width: 23px;
   background-color: #ffffff;
 }
-.text-3 {
-  text-align: left;
+.text {
+  text-align: right;
   vertical-align: bottom;
-  font-size: 14px;
-  font-family: Inter;
+  font-size: 18px;
+  font-family: Acme;
   letter-spacing: 1.25px;
   line-height: auto;
   color: #333333;
+  width: 100%;
 }
-.forgetText {
+.separator{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+margin: 1vh;
+height: 1vh;
+}
+.socialText{
+  font-family: Acme;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.4px;
+
+color: #000000;
+
+
+/* Inside Auto Layout */
+
+
+
+}
+.withoutAccount {
   text-align: center;
-  vertical-align: bottom;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Acme", sans-serif;
   letter-spacing: 0.25px;
-  line-height: auto;
+ 
+  width: 100%;
+  height: fit-content;
+}
+.signUp{
+  color: #5dc3ef;
 }

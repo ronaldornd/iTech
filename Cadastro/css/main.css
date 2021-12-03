@@ -48,17 +48,11 @@
   line-height: auto;
   color: #333333;
 }
-.inputBox {
-  height: 100%;
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  padding: 1px;
-  gap: 2vh;
+.all{
+  margin-bottom: 0;
 }
-
-.inputContent {
+.inputBox {
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -68,6 +62,16 @@
   border: 1px solid #5dc3ef;
   border-radius: 8px;
   padding: 0.5vh;
+}
+
+.inputContent {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+  gap: 2vh;
 }
 
 .divIcon {
@@ -94,6 +98,10 @@
   transform: rotate(-91deg);
   align-self: center;
 }
+.input:focus{
+  border: 0 none;
+  outline: 0;
+}
 .input {
   border-radius: 8px;
   display: flex;
@@ -106,6 +114,14 @@
   border: 0;
   width: 100%;
   font-family: "Acme", sans-serif;
+}
+.logText{
+  color: #5dc3ef;
+  font-size: 45px;
+  letter-spacing: 6px;
+  font-family: "Acme", sans-serif;
+  -webkit-text-stroke-width: 0.5px;
+-webkit-text-stroke-color: #000;
 }
 .text {
   display: flex;
@@ -212,4 +228,8 @@ input:checked + .slider:before {
   /* Inside Auto Layout */
 
   flex-grow: 0;
+}
+.signinbtn:hover{
+  transition: background 0.5s linear;
+  background: #429fc7;
 }
