@@ -46,13 +46,13 @@ align-items: center;
 letter-spacing: -0.165px;
 margin: 0px 20px;
 }
-.divPicture{
+.divPic{
 	width: fit-content;
 	height: fit-content;
 }
 .profilePic{
-	width: 25px;
-	height: 25px;
+	width: 60px;
+	height: 60px;
 }
 .icon{
 	width: 10vh;
@@ -77,20 +77,29 @@ html{
 	gap: 5vh;
 	align-items: center;
 	width: 100%;
+	height: 90%;
 	margin-left: 5%;
 }
+.serviceTitle{
+	font-size: 25px
+}
+.serviceDescription{
+	font-size: 20px;
+}
+
 .services{
 	display: flex;
 	flex-direction: column;
 	background: rgba(93, 195, 239, 0.5);
 	border-radius: 21px;
 	width: 50%;
-	height: 80vh;
+	height: 90%;
 	align-items: center;
-	margin: 2vh;
+	
+	
 }
 .cancel{
-	margin: 30px;
+	margin: 10px;
 
 }
 .soliciteds{
@@ -99,7 +108,7 @@ html{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 80%;
+	width: 95%;
 	gap: 2vh;
 	height: 80%;
 	align-items: center;
@@ -108,9 +117,11 @@ html{
 	padding: 1vh;
 	display: flex;
 	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
 	border-radius: 25px;
 	background: white;
-	padding: 20px;
+	margin: 0px;
 	width: 100%;
 }
 .desc{
@@ -138,9 +149,10 @@ html{
 .servLogo{
 	width: fit-content;
 	height: fit-content;
-	margin: 20px 10px 10px;
+	margin: 2vh;
 	
 }
+
 p{
 	font-family: Acme;
 	
@@ -151,5 +163,5 @@ p{
 	box-sizing: border-box;
 	border-radius: 20px;
 	width: 40%;
-	height: 80vh;
+	height: 90%;
 }
