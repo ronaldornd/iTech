@@ -177,10 +177,13 @@
 }
 .i64_451_61_168 { 
 	border:1px solid rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+	
 }
-font-family : 'Acme', sans-serif;
+
 
 .ei64_451_61_169 { 
+	
+	font-family : 'Acme', sans-serif;
 	color:rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
 	opacity:0.800000011920929;
 	width:218px;
@@ -307,8 +310,9 @@ font-family : 'Acme', sans-serif;
 	border-top-right-radius:28px;
 	border-bottom-left-radius:28px;
 	border-bottom-right-radius:28px;
-}{}font-family: 'Acme', sans-serif;
+}
 .ei141_1857_64_451_61_168 { 
+	font-family: 'Acme', sans-serif;
 	background-color:rgba(151.30443066358566, 223.1475555896759, 253.93750101327896, 1);
 	width:178px;
 	height:26px;
@@ -435,7 +439,7 @@ font-family : 'Acme', sans-serif;
 }
 .ei141_1883_64_451_61_164 { 
 	width:288px;
-	font-family: 'Acme', sans-serif;px ;
+	font-family: 'Acme', sans-serif;
 	position:absolute;
 	left:20px;
 	top:0px;

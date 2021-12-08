@@ -21,35 +21,40 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 100%;
+	align-items: flex-start;
+	width: 98vw;
 	height: 10vh;
-	padding: 5px;
+	padding: 2vh;
 	align-items: center;
+	
+	
 }
 .pageTitle{
+	margin-left: 0;
 	font-family: "Acme", sans-serif;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 32px;
+	font-size: 3vw;
 	height: fit-content;
 	justify-content: center;
 	align-items: center;
 	letter-spacing: 0.1em;
-	width: 100%;
-	margin-left: 10px;
+	width: 40vw;
+	
 }
 .profile{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: flex-end;
-	width: 100%;
+	width: 40vw;
 }
 .username{
+	width: fit-content;
 	font-family: Acme;
 font-style: normal;
 font-weight: normal;
-font-size: 25px;
+font-size: 2vw;
 line-height: 32px;
 display: flex;
 align-items: center;
@@ -57,12 +62,13 @@ letter-spacing: -0.165px;
 margin: 0px 20px;
 }
 .divPic{
+	margin: 1vw;
 	width: fit-content;
 	height: fit-content;
 }
 .profilePic{
-	width: 60px;
-	height: 60px;
+	width: 6vw;
+	height: 6vw;
 }
 .icon{
 	width: 10vh;
@@ -71,57 +77,59 @@ margin: 0px 20px;
 .logOut{
 	display: flex;
 	flex-direction: row;
-	margin: 0px 20px;
-	
+
+	align-items: center;
 	width: fit-content;
-	font-size: 20px;
+	font-size: 2vw;
 	font-family: Acme;
 }
 .content{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
-	width: 100%;
+	width: 95vw;
 	height: 90vh;
+	padding-left: 5vw;
 	margin-left: 1%;
 	margin-right: 1%;
+	gap: 10vh;
 }
 .serviceTitle{
-	font-size: 25px
+	font-size: 1.9vw;
 }
 .serviceDescription{
-	font-size: 20px;
+	font-size: 1vw;
 }
 
 .services{
 	display: flex;
 	flex-direction: column;
 	background: rgba(93, 195, 239, 0.5);
-	border-radius: 21px;
-	width: 45%;
+	border-radius: 2vw;
+	width: 40vw;
 	height: 80vh;
+	margin: 1vh;
 	align-items: center;
 }
 .cancelText{
 	margin:0;
+	font-size: 1.5vw;
 }
 
 .cancelIcon{
 	margin: 2px;
-	width: 80%;
-	height: 80%;
+	width: 4vw;
+	height: 4vw;
 }
 .cancel{
-	margin: 10px;
+	margin: 1vw;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	height: fit-content;
 }
 .soliciteds{
-	
-	padding: 4vh;
 	padding-bottom: 0;
 	display: flex;
 	flex-direction: column;
@@ -130,6 +138,7 @@ margin: 0px 20px;
 	gap: 2vh;
 	height: 100%;
 	align-items: center;
+	margin: 1vw;
 }
 .service{
 	padding: 1vh;
@@ -137,12 +146,12 @@ margin: 0px 20px;
 	flex-direction: row;
 	justify-content: flex-start;
 	align-items: center;
-	border-radius: 25px;
+	border-radius: 2vw;
 	background: white;
 	margin: 10px;
-	margin-top: 0;
+
 	width: 35vw;
-	height: 25vh;
+	height: fit-content;
 }
 .desc{
 	width: 100%;
@@ -152,13 +161,15 @@ margin: 0px 20px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: flex-end;
-	padding: 1vh;
-	margin: 1vh;
+	align-items: center;
+	
 	background-color: #333333;
 	border: 1px solid #5dc3ef;
+
 	width: fit-content;
-	height: fit-content;
+  height: 5vh;
+  padding: 1vh;
+	margin: 1vh;
 }
 .newService{
 	text-decoration: none;
@@ -166,12 +177,11 @@ margin: 0px 20px;
 	font-size: 5vh;
 	font-family: Acme;
 	color: #5dc3ef;
-	
 	width: fit-content;
 }
 .servLogo{
-	width: fit-content;
-	height: 60px;
+	width: 5vw;
+	height: 5vw;
 	margin: 2vh;
 	
 }
@@ -184,62 +194,64 @@ p{
 	background: #FFFFFF;
 	border: 1px solid #000000;
 	box-sizing: border-box;
-	border-radius: 20px;
-	width: 50%;
+	border-radius: 2vw;
+	width: 45vw;
 	height: 80vh;
 	display: flex;
-	padding: 10px;
-	gap: 10vh;
+	padding: 1vh;
+	gap: 5vh;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
 }
 .infoBox{
-	margin: 10px;
-	display: flex;
 	
+	display: flex;
+	padding: 2vh;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center; 
 	font-family: acme;
 	width: 100%;
+	height: 100%;
 }
 .textarea{
+	width: 35vw;
+	height: 3vh;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	padding: 0px 10px 10px;
+	margin: 0%;
+	padding: 2px;
 	background: #F4F6F9;
 	border: 0;
 	overflow-y: hidden;
 	resize: none;
 	font-family: Acme; 
-	width: fit-content;
+	align-items: center;
 }
 
 .label{
 	
 	position:relative;
-	width: 3px;
+	width: fit-content;
 	height:	fit-content;
 	left: 10px;
 	top: -10px;
 	background: rgba(93, 195, 239, 0.5);
-	border-radius: 8px;
+	border-radius: 3px;
 	
 }
 .divText{
 	
-	width: 100%;
-	margin: 2vh;
+	width: 40vw;
 	background: #F4F6F9;
-	border-radius: 8px;
+	border-radius: 20px;
 	
 }
 
 .buttonProfile{
 	
-	border-radius: 5px;
+	border-radius: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
