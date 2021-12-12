@@ -220,20 +220,33 @@ body{
 .text {
   text-align: right;
   vertical-align: bottom;
-  font-size: 18px;
+  font-size: 15px;
   font-family: Acme;
   letter-spacing: 1.25px;
   line-height: auto;
   color: #333333;
   width: 100%;
 }
+.orText {
+  text-align: right;
+  vertical-align: bottom;
+  font-size: 15px;
+  font-family: Acme;
+  letter-spacing: 1.25px;
+  line-height: auto;
+  color: #333333;
+  width: 100%;
+  margin: 30px;
+}
+
+
 .separator{
   display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 0px;
-margin: 1vh;
+margin: 2vh;
 height: 1vh;
 }
 .socialText{

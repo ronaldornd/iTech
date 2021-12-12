@@ -29,7 +29,7 @@ body{
 	
 }
 .pageTitle{
-	margin-left: 0;
+	margin-left: -6vw;
 	font-family: "Acme", sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -85,16 +85,17 @@ margin: 0px 20px;
 .content{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	width: 100%;
 	height: 90vh;
+
 }
 .serviceTitle{
-	font-size: 1.9vw;
+	font-size: 3.5vh;
 }
 .serviceDescription{
-	font-size: 1vw;
+	font-size: 2.5vh;
 }
 
 .services{
@@ -150,6 +151,9 @@ margin: 0px 20px;
 }
 .desc{
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 .newServicebtn{
 	border-radius: 20px;
@@ -183,7 +187,6 @@ margin: 0px 20px;
 
 p{
 	font-family: Acme;
-	
 }
 .information{
 	background: #FFFFFF;
@@ -194,10 +197,14 @@ p{
 	height: 80vh;
 	display: flex;
 	padding: 1vh;
-	gap: 5vh;
 	flex-direction: column;
 	align-items: center;
 	justify-content: space-between;
+}
+.info{
+	display: flex;
+	font-size: 32px;
+	margin: 0;
 }
 .infoBox{
 	
@@ -210,19 +217,25 @@ p{
 	width: 100%;
 	height: 100%;
 }
-.textarea{
-	width: 35vw;
+.divArea{
+	width: 95%;
 	height: 3vh;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	margin: 0%;
 	padding: 2px;
+	resize: none;
+	align-items: center;
+	overflow-y: hidden;
+}
+.input{
+	overflow-y: hidden;
+	height: 2vh;
+	width: 100%;
+	font-family: Acme; 
+	font-size: 2vh;
 	background: #F4F6F9;
 	border: 0;
-	overflow-y: hidden;
-	resize: none;
-	font-family: Acme; 
-	align-items: center;
 }
 
 .label{
@@ -230,18 +243,21 @@ p{
 	position:relative;
 	width: fit-content;
 	height:	fit-content;
-	left: 10px;
+	left: 15px;
 	top: -10px;
-	background: rgba(93, 195, 239, 0.5);
-	border-radius: 3px;
-	
+	background: #5dc3ef80;
+	font-size: 2vh;
+	border-radius: 20px;
 }
 .divText{
-	
-	width: 40vw;
+	width: 100%;
 	background: #F4F6F9;
 	border-radius: 20px;
-	
+	margin-bottom: 2vh;
+}
+.textIcon{
+	width: 3vh;
+	height: 3vh;
 }
 
 .buttonProfile{
