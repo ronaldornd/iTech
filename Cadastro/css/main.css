@@ -5,11 +5,12 @@
   justify-content: space-around;
   align-items: center;
   height: 100%;
+  width: 100%;
   padding: 10px;
 }
 .logo {
   margin: 10px;
-  width: 60%;
+  width: 60vw;
   height: 90vh;
   background: url("../../images/logo.png");
   background-repeat: no-repeat;
@@ -34,15 +35,15 @@
   padding: 10px 10px;
   background-color: #e8e8e8;
   border: 3px solid #dadada;
-  height: 90%;
-  width: 30%;
+  height: fit-content;
+  width: 30vw;
 }
 .lbl {
   display: flex;
-  margin: 10px;
+  margin: 1vh;
   text-align: center;
   vertical-align: bottom;
-  font-size: 20px;
+  font-size: 3vh;
   font-family: "Acme", sans-serif;
   letter-spacing: 0.15000000596046448px;
   line-height: auto;
@@ -54,23 +55,27 @@
 .inputBox {
   
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffff;
-
-  border: 1px solid #5dc3ef;
-  border-radius: 8px;
-  padding: 0.5vh;
+  width: 90%;
+  padding-bottom: 2vh ;
 }
 
 .inputContent {
+  padding: 0.5vh;
+  margin: 0.5vh;
+
+  background-color: #ffffff;
+  border: 1px solid #5dc3ef;
+  border-radius: 8px;
   height: 100%;
   width: 100%;
 
   display: flex;
-  flex-direction: column;
-  padding: 1px;
+  flex-direction: row;
+  align-items: center;
+  
   gap: 2vh;
 }
 
@@ -113,15 +118,14 @@
   gap: 10px;
   border: 0;
   width: 100%;
+  font-size: 2vh;
   font-family: "Acme", sans-serif;
 }
 .logText{
   color: #5dc3ef;
-  font-size: 45px;
-  letter-spacing: 6px;
+  font-size: 7vh;
   font-family: "Acme", sans-serif;
-  -webkit-text-stroke-width: 0.5px;
--webkit-text-stroke-color: #000;
+
 }
 .text {
   display: flex;
@@ -163,14 +167,15 @@
   margin: 2px;
   height: 1%;
   display: flex;
-  width: max-content;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .toggleText {
   font-family: "Acme", sans-serif;
   margin: 10px;
-  font-size: 20px;
+  font-size: 3vh;
 }
 
 .slider:before {
