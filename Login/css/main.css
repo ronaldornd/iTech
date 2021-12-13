@@ -1,4 +1,4 @@
-body{
+body {
   position: relative;
   height: 100vh;
   width: 100vw;
@@ -8,7 +8,7 @@ body{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
   position: relative;
   width: fit-content;
   height: fit-content;
@@ -25,17 +25,15 @@ body{
   width: 30vw;
   height: fit-content;
 
-  
-
   background: linear-gradient(180deg, #ffffff -13.59%, #f4f4f4 100%);
   border: 1px solid #dadada;
-  
+
   border-radius: 24px 24px 0px 0px;
 }
 .logo {
   width: 60vw;
   height: 90vh;
-  background: url("../../images/logo.png");
+  background: url('../../images/logo.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -45,7 +43,6 @@ body{
   border-radius: 24px;
   margin-right: 5%;
 }
-
 
 .lbl {
   position: relative;
@@ -70,8 +67,6 @@ body{
   /* Inside Auto Layout */
 }
 .inpExter {
-  
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -79,7 +74,6 @@ body{
 
   width: 100%;
   height: fit-content;
-  
 
   background: #ffffff;
 
@@ -87,11 +81,8 @@ body{
   box-sizing: border-box;
   border-radius: 8px;
 
-
-  
   flex: none;
-  
-  
+
   flex-grow: 0;
   margin: 2vh;
 }
@@ -102,7 +93,7 @@ body{
   width: 100%;
   height: max-content;
 
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 2.5vh;
@@ -118,7 +109,6 @@ body{
 
   border: 0;
   flex-grow: 1;
-  
 }
 .loginButton {
   border-radius: 8px;
@@ -136,7 +126,7 @@ body{
   text-align: left;
   vertical-align: bottom;
   font-size: 2.5vh;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
   letter-spacing: 2.25px;
   color: #333333;
   height: fit-content;
@@ -167,7 +157,7 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
- 
+
   padding: 1vh;
   width: fit-content;
 }
@@ -206,46 +196,41 @@ img {
   margin: 30px;
 }
 
-
-.separator{
+.separator {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-margin: 2vh;
-height: 1vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 2vh;
+  height: 1vh;
 }
-.socialText{
+.socialText {
   font-family: Acme;
-font-style: normal;
-font-weight: normal;
-font-size: 2vh;
-line-height: 18px;
-/* identical to box height */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2vh;
+  line-height: 18px;
+  /* identical to box height */
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.4px;
 
-color: #000000;
+  color: #000000;
 
-
-/* Inside Auto Layout */
-
-
-
+  /* Inside Auto Layout */
 }
 .withoutAccount {
   text-align: center;
   font-size: 3vh;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
   letter-spacing: 0.25px;
- 
-  width: 100%;
+
+  width: 60%;
   height: fit-content;
 }
-.signUp{
+.signUp {
   color: #5dc3ef;
 }
