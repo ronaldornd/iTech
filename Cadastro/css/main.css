@@ -2,45 +2,43 @@
 .app {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  height: 100%;
-  width: 100%;
-  padding: 10px;
+  justify-content: space-around;
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  padding: 3vh;
 }
 .logo {
-  margin: 10px;
   width: 60vw;
   height: 90vh;
-  background: url("../../images/logo.png");
+  background: url('../../images/logo.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   opacity: 1;
   position: relative;
-
   border: 1px solid rgba(0, 0, 0, 1);
-  border-top-left-radius: 24px;
-  border-top-right-radius: 24px;
-  border-bottom-left-radius: 24px;
-  border-bottom-right-radius: 24px;
-  overflow: hidden;
+  border-radius: 24px;
+  margin-right: 5%;
 }
 .signUp {
+
   border-radius: 20px 20px 0px 0px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 10px 10px;
-  background-color: #e8e8e8;
-  border: 3px solid #dadada;
+  padding: 3vh;
+  background: linear-gradient(180deg, #ffffff -13.59%, #f4f4f4 100%);
+  border: 1px solid #dedada;
   height: fit-content;
   width: 30vw;
 }
 .lbl {
   display: flex;
   margin: 1vh;
+  padding: 1vh;
   text-align: center;
   vertical-align: bottom;
   font-size: 3vh;
@@ -51,6 +49,7 @@
 }
 .all{
   margin-bottom: 0;
+  padding-top:1vh;
 }
 .inputBox {
   
@@ -123,9 +122,9 @@
 }
 .logText{
   color: #5dc3ef;
-  font-size: 7vh;
+  font-size: 4vh;
   font-family: "Acme", sans-serif;
-
+  padding-bottom: 1vh;
 }
 .text {
   display: flex;

@@ -109,6 +109,9 @@ img{
   height: 5vh;
   padding-left: 1vw;
 }
+.input:focus{
+  outline: 0;
+}
 .clientInfo {
   display: flex;
   flex-direction: column;
