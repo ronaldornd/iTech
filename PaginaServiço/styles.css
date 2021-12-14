@@ -1,17 +1,7 @@
 .e5_3 {
   overflow: hidden;
 }
-.e5_3 {
-  background-color: rgba(
-    248.0000004172325,
-    248.0000004172325,
-    248.0000004172325,
-    1
-  );
-  width: 99%;
-  height: 732px;
-  position: absolute;
-}
+
 .e120_1686 {
   background-color: rgba(0, 0, 0, 1);
   width: 50.44940185546875px;
@@ -52,12 +42,12 @@
 }
 .e5_61 {
   background-color: rgba(255, 255, 255, 1);
-  width: 1334px;
-  height: 720px;
+  width: 103%;
+  height: 734px;
   position: absolute;
-  left: 0px;
+  left: 1px;
   top: 2px;
-  border-radius: 50px;
+  border-radius: 10px;
 }
 .e5_61 {
   border: 1px solid rgba(0, 0, 0, 1);
