@@ -1,4 +1,4 @@
-body{
+body {
   height: 98vh;
   width: 98vw;
 }
@@ -25,13 +25,11 @@ body{
   justify-content: center;
   align-items: center;
 }
-.headerIcon{
+.headerIcon {
   height: fit-content;
   width: fit-content;
- 
-  
 }
-img{
+img {
   height: 2vh;
   width: 2vh;
   padding: 1vh;
@@ -55,7 +53,7 @@ img{
   height: 170px;
   width: 170px;
   border-radius: 50%;
-  border: 5px solid #5DC3EF;
+  border: 5px solid #5dc3ef;
   margin: 1vh;
 }
 .infoBase {
@@ -81,11 +79,11 @@ img{
   border: 0.0625rem solid #5dc3ef;
   padding: 1vh;
 }
-.divIcon{
+.divIcon {
   display: flex;
   align-items: center;
 }
-.icon{
+.icon {
   width: 3vh;
   height: 3vh;
 }
@@ -94,7 +92,6 @@ img{
   width: 0.0011px;
   padding: 0;
   border: 0.0625rem solid #5dc3ef;
-
 }
 .input {
   border: 0;
@@ -109,7 +106,7 @@ img{
   height: 5vh;
   padding-left: 1vw;
 }
-.input:focus{
+.input:focus {
   outline: 0;
 }
 .clientInfo {
@@ -134,7 +131,6 @@ img{
   padding: 1vh;
 }
 
-
 .adress {
   display: flex;
   flex-direction: row;
@@ -152,5 +148,5 @@ img{
   align-items: flex-start;
   height: fit-content;
   width: 40vw;
-  gap:2rem;
+  gap: 2rem;
 }
