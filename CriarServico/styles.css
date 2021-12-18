@@ -251,7 +251,7 @@
   height: 24px;
   position: absolute;
   left: 0px;
-  top: 10px;
+  top: -5px;
 }
 .ei61_249_61_178 {
   width: 590px;
@@ -440,7 +440,7 @@
   height: 24px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: -5px;
 }
 .ei127_1783_61_178 {
   width: 590px;
@@ -761,6 +761,12 @@
   position: absolute;
   left: 16px;
   top: 12.00100040435791px;
+}
+
+.mytext {
+  position: absolute;
+  width: 565px;
+  height: 175px;
 }
 .ei64_813_64_449_61_173 {
   font-family: 'Acme', sans-serif;
@@ -1294,7 +1300,7 @@
     239.00000095367432,
     1
   );
-  width: 281px;
+  width: 270px;
   height: 82px;
   position: absolute;
   left: 367px;
@@ -1349,8 +1355,8 @@
   width: 639px;
   height: 417px;
   position: absolute;
-  left: 7px;
-  top: 5px;
+  left: 12px;
+  top: 1px;
   border-radius: 26px;
 }
 .e61_74 {
