@@ -122,9 +122,14 @@
 }
 .logText{
   color: #5dc3ef;
-  font-size: 4vh;
   font-family: "Acme", sans-serif;
   padding-bottom: 1vh;
+  font-size: 3vh ;
+}
+.alreadyAccount{
+  border: 0;
+  background: #f4f4f4;
+  padding: 0%;
 }
 .text {
   display: flex;

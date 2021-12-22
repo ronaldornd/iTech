@@ -92,13 +92,14 @@
   font-style: normal;
   font-weight: normal;
   font-size: 2.5vh;
+  
   display: flex;
   align-items: center;
   letter-spacing: 0.5px;
 
   /* Hint Text Color */
 
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.596);
 
   /* Inside Auto Layout */
 
