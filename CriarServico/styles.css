@@ -1032,7 +1032,7 @@
   width: 320px;
   height: 124.00299835205078px;
   position: absolute;
-  left: 18.5px;
+  left: 40%;
   top: 0px;
   border-top-left-radius: 2px;
   border-top-right-radius: 2px;
@@ -1303,7 +1303,7 @@
   width: 270px;
   height: 82px;
   position: absolute;
-  left: 367px;
+  left: 100%;
   top: 36.5px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -1335,7 +1335,7 @@
 }
 .e61_69 {
   background-color: rgba(255, 255, 255, 1);
-  width: 652px;
+  
   height: 420px;
   position: absolute;
   left: 636px;
