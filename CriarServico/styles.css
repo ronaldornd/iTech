@@ -588,11 +588,10 @@
   border-top-right-radius: 8px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-}
-.i64_813_64_449_61_163 {
   border: 2px solid
     rgba(93.00000965595245, 195.1999792456627, 239.00000095367432, 1);
 }
+
 .ei64_813_64_449_61_164 {
   width: 558px;
   height: 0.0010000000474974513px;
@@ -946,11 +945,10 @@
   border-top-right-radius: 8px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-}
-.i64_839_61_255_61_163 {
   border: 1px solid
     rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
 }
+
 .ei64_839_61_255_61_164 {
   width: 288px;
   height: 0.0010000000474974513px;
@@ -976,18 +974,7 @@
   left: 0px;
   top: 0px;
 }
-.ei64_839_61_255_61_167 {
-  background-color: rgba(255, 255, 255, 1);
-  width: 158px;
-  height: 20px;
-  position: absolute;
-  left: -4px;
-  top: 0px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
+
 .ei64_839_61_255_61_168 {
   width: 150px;
   height: 20px;
@@ -996,12 +983,12 @@
   top: 0.0010000000474974513px;
 }
 .ei64_839_61_255_61_169 {
-  color: rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
+  color: rgba(93.00000965595245, 195.1999792456627, 239.00000095367432, 1);
   width: 145px;
   height: 20px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: -5px;
   font-family: Source Sans Pro;
   text-align: left;
   font-size: 13px;
@@ -1014,8 +1001,8 @@
   width: 5px;
   height: 16px;
   position: absolute;
-  left: 145px;
-  top: 2px;
+  left: 75px;
+  top: 1px;
   font-family: 'Acme', sans-serif;
   text-align: left;
   font-size: 11px;
@@ -1080,100 +1067,13 @@
   left: 0px;
   top: 0px;
 }
-.ei64_839_61_255_61_178 {
-  width: 320px;
-  height: 76.0009994506836px;
-  position: absolute;
-  left: 0px;
-  top: 48.00199890136719px;
-}
-.ei64_839_61_255_61_179 {
-  width: 320px;
-  height: 32.000999450683594px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.ei64_839_61_255_61_179_61_220 {
-  background-color: rgba(
-    252.00000017881393,
-    221.00000202655792,
-    236.00000113248825,
-    1
-  );
-  width: 320px;
-  height: 32.000999450683594px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-}
-.ei64_839_61_255_61_179_61_220_61_201 {
-  width: 16px;
-  height: 0.0010000000474974513px;
-  position: absolute;
-  left: 16px;
-  top: 6px;
-}
-.ei64_839_61_255_61_179_61_220_61_202 {
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  left: 0px;
-  top: 1.998016357421875px;
-}
-.i64_839_61_255_61_179_61_220_61_202_61_206 {
-  overflow: hidden;
-}
-.ei64_839_61_255_61_179_61_220_61_202_61_206 {
-  width: 13.333333969116211px;
-  height: 13.333333969116211px;
-  position: absolute;
-  left: 1.3333333730697632px;
-  top: 1.3333333730697632px;
-}
-.ei64_839_61_255_61_179_61_220_61_202_61_211 {
-  background-color: rgba(
-    51.00000075995922,
-    51.00000075995922,
-    51.00000075995922,
-    1
-  );
-  width: 16px;
-  height: 16px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-}
-.ei64_839_61_255_61_179_61_220_61_203 {
-  width: 288px;
-  height: 20px;
-  position: absolute;
-  left: 16px;
-  top: 6.001007080078125px;
-}
-.ei64_839_61_255_61_179_61_220_61_204 {
-  color: rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
-  width: 240px;
-  height: 20px;
-  position: absolute;
-  left: 24px;
-  top: 0px;
-  font-family: Source Sans Pro;
-  text-align: left;
-  font-size: 13px;
-  letter-spacing: 0;
-  line-height: px;
-}
+
 .ei64_839_61_255_61_180 {
   width: 320px;
   height: 40px;
   position: absolute;
   left: 0px;
-  top: 36.000999450683594px;
+  top: 50px;
 }
 .ei64_839_61_255_61_181 {
   color: rgba(51.00000075995922, 51.00000075995922, 51.00000075995922, 1);
@@ -1181,7 +1081,7 @@
   width: 288px;
   height: 40px;
   position: absolute;
-  left: 16px;
+  left: 5px;
   top: 0px;
   font-family: Source Sans Pro;
   text-align: left;
