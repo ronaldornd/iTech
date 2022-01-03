@@ -127,7 +127,10 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
-
+.form-control {
+  min-width: 590px;
+  min-height: 48.00199890136719px;
+}
 .ei61_249_61_164 {
   width: 558px;
   height: 0.0010000000474974513px;
@@ -188,6 +191,7 @@
   letter-spacing: 0;
   line-height: px;
 }
+
 .ei61_249_61_171 {
   position: absolute;
   left: 16px;
@@ -222,26 +226,7 @@
 .i61_249_61_175_61_187 {
   overflow: hidden;
 }
-.ei61_249_61_175_61_187 {
-  width: 14px;
-  height: 8px;
-  position: absolute;
-  left: 5px;
-  top: 8px;
-}
-.ei61_249_61_175_61_189 {
-  background-color: rgba(
-    133.19999814033508,
-    139.85999196767807,
-    148.000006377697,
-    1
-  );
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 0px;
-  top: -5px;
-}
+
 .ei61_249_61_178 {
   width: 590px;
   height: 20px;
@@ -378,26 +363,7 @@
 .i127_1783_61_175_61_187 {
   overflow: hidden;
 }
-.ei127_1783_61_175_61_187 {
-  width: 14px;
-  height: 8px;
-  position: absolute;
-  left: 5px;
-  top: 8px;
-}
-.ei127_1783_61_175_61_189 {
-  background-color: rgba(
-    133.19999814033508,
-    139.85999196767807,
-    148.000006377697,
-    1
-  );
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 0px;
-  top: -5px;
-}
+
 .ei127_1783_61_178 {
   width: 590px;
   height: 20px;
@@ -629,6 +595,7 @@
   border-top-right-radius: 8px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  border: 2px solid;
 }
 .ei64_813_64_449_61_168 {
   width: 60px;
@@ -669,6 +636,10 @@
   left: -14px;
 
   top: -10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 .ei64_813_64_449_61_173 {
   font-family: 'Acme', sans-serif;
@@ -1038,29 +1009,6 @@
   position: absolute;
   left: 266px;
   top: -36px;
-}
-.i64_839_61_255_61_175_61_187 {
-  overflow: hidden;
-}
-.ei64_839_61_255_61_175_61_187 {
-  width: 14px;
-  height: 8px;
-  position: absolute;
-  left: 5px;
-  top: 8px;
-}
-.ei64_839_61_255_61_175_61_189 {
-  background-color: rgba(
-    133.19999814033508,
-    139.85999196767807,
-    148.000006377697,
-    1
-  );
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
 }
 
 .ei64_839_61_255_61_180 {
