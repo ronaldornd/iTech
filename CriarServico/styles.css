@@ -239,7 +239,7 @@
   height: 20px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 5px;
 }
 
 .e127_1782 {
@@ -376,7 +376,7 @@
   height: 20px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 5px;
 }
 
 .e112_2365 {
@@ -523,7 +523,7 @@
   height: 20px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 5px;
 }
 
 .e64_813 {
@@ -693,9 +693,9 @@
   height: 20px;
   position: absolute;
   left: 0px;
-  top: 0px;
+  top: 5px;
 }
-.messge {
+.message {
   color: rgba(9.000000413507223, 16.000000946223736, 29.000000171363354, 1);
   opacity: 0.6000000238418579;
   width: 558px;
@@ -870,11 +870,11 @@
   background-image: url(images/profile_picture.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-.i207_1876_66_1314 {
+
   border: 5px solid
     rgba(93.00000965595245, 195.1999792456627, 239.00000095367432, 1);
 }
+
 .e207_1874 {
   width: 658px;
   height: 155px;
