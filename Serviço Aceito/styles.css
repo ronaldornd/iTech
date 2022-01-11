@@ -43,7 +43,7 @@
   width: 139px;
   height: 78px;
   position: absolute;
-  left: 150px;
+  left: 360px;
   top: 5px;
   font-family: Acme;
   text-align: left;
@@ -55,16 +55,16 @@
   width: 80px;
   height: 80px;
   position: absolute;
-  left: 260px;
+  left: 460px;
   top: 4px;
   background-image: url(images/profile_picture.png);
   background-repeat: no-repeat;
   background-size: cover;
-}
-.i207_1895_66_1314 {
   border: 5px solid
-    rgba(93.00000965595245, 195.1999792456627, 239.00000095367432, 1);
+  rgba(93.00000965595245, 195.1999792456627, 239.00000095367432, 1);
+
 }
+
 .e207_1913 {
   width: 599px;
   height: 503px;
@@ -105,7 +105,7 @@
   width: 557px;
   height: 603px;
   position: absolute;
-  left: 695px;
+  left: 900px;
   top: 98px;
 }
 .e64_450 {
