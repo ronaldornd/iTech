@@ -2,6 +2,12 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: Acme;
+  background-color: rgba(
+    248.0000004172325,
+    248.0000004172325,
+    248.0000004172325,
+    1
+  );
 }
 .header {
   display: flex;
