@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 .app {
   display: flex;
   flex-direction: row;
@@ -23,7 +23,6 @@
   margin-right: 5%;
 }
 .signUp {
-
   border-radius: 20px 20px 0px 0px;
   display: flex;
   flex-direction: column;
@@ -42,23 +41,22 @@
   text-align: center;
   vertical-align: bottom;
   font-size: 3vh;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
   letter-spacing: 0.15000000596046448px;
   line-height: auto;
   color: #333333;
 }
-.all{
+.all {
   margin-bottom: 0;
-  padding-top:1vh;
+  padding-top: 1vh;
 }
 .inputBox {
-  
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  padding-bottom: 2vh ;
+  padding-bottom: 2vh;
 }
 
 .inputContent {
@@ -74,7 +72,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
   gap: 2vh;
 }
 
@@ -102,7 +100,7 @@
   transform: rotate(-91deg);
   align-self: center;
 }
-.input:focus{
+.input:focus {
   border: 0 none;
   outline: 0;
 }
@@ -118,20 +116,25 @@
   border: 0;
   width: 100%;
   font-size: 2vh;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
 }
-.logText{
+.logText {
   color: #5dc3ef;
-  font-size: 4vh;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
   padding-bottom: 1vh;
+  font-size: 3vh;
+}
+.alreadyAccount {
+  border: 0;
+  background: #f4f4f4;
+  padding: 0%;
 }
 .text {
   display: flex;
   text-align: center;
   vertical-align: middle;
   font-size: 1.5vh;
-  font-family: "Acme", sans-serif;
+  font-family: 'Acme', sans-serif;
   letter-spacing: 0.5px;
   color: black;
 }
@@ -162,24 +165,10 @@
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
-.toggleType {
-  margin: 2px;
-  height: 1%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.toggleText {
-  font-family: "Acme", sans-serif;
-  margin: 10px;
-  font-size: 3vh;
-}
 
 .slider:before {
   position: absolute;
-  content: "";
+  content: '';
   height: 20px;
   width: 30px;
   margin: 5px;
@@ -233,7 +222,7 @@ input:checked + .slider:before {
 
   flex-grow: 0;
 }
-.signinbtn:hover{
+.signinbtn:hover {
   transition: background 0.5s linear;
   background: #429fc7;
 }
