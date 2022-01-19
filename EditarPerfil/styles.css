@@ -1,3 +1,8 @@
+
+html{
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
 body {
   height:100vh;
   width: max-content;
@@ -129,7 +134,7 @@ img {
   margin-bottom: 5vh;
   width: 100%;
   height: fit-content;
-  gap: 2rem;
+  gap: 2vh;
 }
 .emailaddress {
   width: 90%;
