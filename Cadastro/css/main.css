@@ -217,8 +217,8 @@ input:checked + .slider:before {
   padding: 0 8%;
 
   position: static;
-  width: 50%;
-  height: 6vh;
+  width: 45%;
+  height: 9vh;
 
   /* blueTech */
 
