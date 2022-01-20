@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+  background: #f8f8f8;
+  display: flex;
+  position: relative;
+  height: 100vh;
+  width: 100vh;
+  padding: 0;
+}
 .app {
   display: flex;
   flex-direction: row;

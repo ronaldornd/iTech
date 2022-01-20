@@ -2,27 +2,32 @@
           <head>
             <meta charset="utf-8">
             <title>iTech</title>
+            <link
+            href="https://fonts.googleapis.com/css?family=Inter&display=swap"
+            rel="stylesheet"
+          />
             <link rel="stylesheet" href="styles.css">          
           </head>
           
 <body>
   <div class="app">
     <div class="logo"></div>
-    <div className="signUpDiv">
-      <div className="form">
-        <p className="lbl">Cadastro de Endereço</p>
-        <br>
-        <div className="inputBox">
-          <div class="inputContent">
-            <div class="divIcon">
+    <div class="signUp">
+      <p class="lbl">Cadastro de Endereço</p>
+      <div class="inputBox">
+     
+        <div class="inputContent">
+           <div class="divIcon">
               <div class="inputIcon">
                 <img src="../images/CEP.png" />
                 <img src="../images/inputLine.png"/>
               </div>
             </div>
             <input class="input" id="" placeholder="CEP"/>
-          </div>
-              <br>   
+          </div> 
+          
+         <br>
+         
           <div class="inputContent">
                     <div class="divIcon">
                         <div class="inputIcon">
@@ -41,11 +46,11 @@
                             <img src="../images/inputLine.png"/>
                         </div>
                       </div>
-                        <br>
+                        
                       
                         <input class="input" id="" placeholder="Número"/>
                   </div>
-                 <br>
+                <br>
                   <div class="inputContent">
                     <div class="divIcon">
                         <div class="inputIcon">
@@ -69,16 +74,26 @@
                         
                       </div>
                       <br>
-        </div>
+                     
+                    </div>
           
                 
                 
-                  <button class="loginButton" onclick="window.location.href = '../Login/'">
-                    
-                  <p className="text-1-7">Finalizar Cadastro</p>
+                <p class="text">Clique em "Finalizar Cadastro" <br> para retornar 
+                  a página de Login.</p>
+                
                   
-                  </button>
+                 
+
+                <div class="signinbtn" onclick="window.location.href = '../Cadastro/'" >
+                   
+                  <p class="lbl"> Finalizar Cadastro </p>
+                   
+              
               </div>
+
+                 
+              
             </div>
           
         

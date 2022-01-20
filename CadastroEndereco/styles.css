@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
 body {
+  background: #f8f8f8;
   display: flex;
   position: relative;
   height: 100vh;
@@ -13,12 +16,12 @@ body {
   position: relative;
   width: fit-content;
   height: fit-content;
-  padding: 5%;
+  padding: 3vh;
 }
 .logo {
-  width: 140vh;
+  width: 60vw;
   height: 90vh;
-  background: url('../images/logo.png');
+  background: url('../../images/logo.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -28,66 +31,70 @@ body {
   border-radius: 24px;
   margin-right: 5%;
 }
-.signUpDiv {
-  width: 30vw;
-  border-radius: 24px 24px 0px 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 40px 20px;
-  gap: 10px;
-  background-color: linear-gradient(180deg, #ffffff -13.59%, #f4f4f4 100%);
-  border: 1px solid black;
-}
-.form {
+.signUp {
+  border-radius: 20px 20px 0px 0px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  padding: 3vh;
+  background: linear-gradient(180deg, #ffffff -13.59%, #f4f4f4 100%);
+  border: 1px solid #dedada;
+  height: fit-content;
+  width: 30vw;
 }
+
 .lbl {
   display: flex;
-  margin: 10px;
+  margin: 1vh;
+  padding: 1vh;
   text-align: center;
   vertical-align: bottom;
-  font-size: 20px;
+  font-size: 3vh;
   font-family: 'Acme', sans-serif;
   letter-spacing: 0.15000000596046448px;
   line-height: auto;
   color: #333333;
 }
+.all {
+  margin-bottom: 0;
+  padding-top: 1vh;
+}
 .inputBox {
-  position: relative;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  padding: 7px 10px;
-  height: fit-content;
-  gap: 10px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding-bottom: 2vh;
 }
 .inputContent {
-  border-radius: 8px;
-  border: 1px solid #5dc3ef;
+  padding: 0.5vh;
+  margin: 0.5vh;
+
   background-color: #ffffff;
-  position: relative;
+  border: 1px solid #5dc3ef;
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
-  padding: 4px 4px;
-  gap: 10px;
+
+  gap: 2vh;
 }
 .divIcon {
+  padding: 1%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
-  position: relative;
-  height: 100%;
-  width: fit-content;
+  justify-content: space-between;
+
+  height: 24px;
+  width: 30px;
   background-color: #ffffff;
+  border-radius: 8px;
 }
 .inputIcon {
   display: flex;
@@ -106,15 +113,8 @@ img {
   width: 24px;
 }
 .inputline {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  position: relative;
   transform: rotate(-91deg);
-  width: 40px;
-  height: 100vh;
-  border: 2px solid #5dc3ef;
+  align-self: center;
 }
 .input:focus {
   border: 0 none;
@@ -122,15 +122,40 @@ img {
 }
 
 .input {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  text-align: left;
-  vertical-align: middle;
-  font-size: 16px;
-  font-family: Inter;
-  letter-spacing: 0.5px;
-  line-height: auto;
-  color: rgba(0, 0, 0, 0.30000001192092896);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px 4px;
+  margin: 5px;
+  gap: 10px;
   border: 0;
+  width: 100%;
+  font-size: 2vh;
+  font-family: 'Acme', sans-serif;
+}
+.signinbtn {
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0 8%;
+
+  position: static;
+  width: 65%;
+  height: 10vh;
+
+  /* blueTech */
+
+  background: #5dc3ef;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex-grow: 0;
 }
