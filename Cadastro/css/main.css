@@ -32,12 +32,12 @@ body {
   margin-right: 5%;
 }
 .signUp {
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 3vh;
+  padding: 4vh;
   background: linear-gradient(180deg, #ffffff -13.59%, #f4f4f4 100%);
   border: 1px solid #dedada;
   height: fit-content;
