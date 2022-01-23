@@ -14,10 +14,11 @@
       rel="stylesheet"
       />
       <link rel="stylesheet" href="styles.css" />
+      <script type="text/javascript" src="script.js"></script>
   </head>
   <body>
       <div class="header">
-        <img class="icon" src="../images/icon.png" />
+        <img src="../images/icon.png" />
         <a class="pageTitle" >Solicitando Serviço</a>
         <div class="profile">
           <p class="username">Ronaldo Barbosa</p>
@@ -29,12 +30,12 @@
       <div class="pageContent">
         <div class="inputs">
           <div class="inputDiv">
-              <div class="inputContent " > 
-                <select class="form-control" >                
+              <div class="inputContent" > 
+                <select class="form-control" id="tipo">                
                   <option value="1"> Assistência para Computador </option>
                   <option value="2"> Assistência para Celular </option>
-                  <option value="2"> Desenvolvimento para Celular </option>
-                  <option value="2"> Desenvolvimento para Computador </option>
+                  <option value="3"> Desenvolvimento para Celular </option>
+                  <option value="4"> Desenvolvimento para Computador </option>
                 </select>         
                 <div class="divLabel">
                   <span class="inputLabel">Tipo</span>
@@ -49,7 +50,7 @@
             <div class="inputDiv">
               <div class="inputContent">
                 
-                <select class="form-control">
+                <select class="form-control" id="marca" >
                   <option> Apple </option>
     
                   <option> Samsung  </option>
@@ -72,11 +73,9 @@
           <div class="inputDiv">
             <div class="inputDiv">
               <div class="inputContent">
-                <select class="form-control" >
-                  <option > COMPUTADOR NÃO LIGA</option>
-                  <option> CELULAR/MAL FUNCIONAMENTO  </option>
-                  <option> OUTROS  </option>
-                </select>  
+                <input class="form-control" id="titulo">
+                  
+              </input>  
                     <div class="divLabel">
                       <span class="inputLabel">Titulo</span>
                     </div>

@@ -1,13 +1,8 @@
-
 html{
 	overflow-y:hidden;
 	overflow-x:hidden;
 }
 body {
-  height:100vh;
-  width: max-content;
-  display: flex;
-  margin: 0;
   background-color: #f8f8f8;
 }
 .editProfile {
